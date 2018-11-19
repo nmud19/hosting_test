@@ -77,10 +77,10 @@ def get_predictions(pw, pl, sw, sl):
     :return:
     """
     arguments = {
-        "sepal_length": int(sl),
-        "sepal_width": int(sw),
-        "petal_length": int(pl),
-        "petal_width": int(pw)
+        "sepal_length": float(sl),
+        "sepal_width": float(sw),
+        "petal_length": float(pl),
+        "petal_width": float(pw)
     }
     print(arguments)
     from openscoring import Openscoring
